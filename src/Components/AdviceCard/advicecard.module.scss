@@ -1,0 +1,83 @@
+/* ADVICE CARD */
+.main_advice_card {
+  width: 500px;
+  height: 400px;
+  background-color: rgb(49 58 73);
+  border-radius: 20px;
+
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 5px;
+  padding: 5px;
+  background: linear-gradient(to top left, #000033 0%, #660066 100%);
+  box-shadow: 0px 0px 10px white;
+}
+
+/* ADVICE ID */
+.advice_id {
+  color: rgb(108 217 173);
+  font-weight: 900;
+  font-size: 11px;
+  letter-spacing: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ADVICE TEXT */
+.advice_text {
+  color: #dce3e6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* DIVIDER BOX */
+.divider_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* DICE BOX */
+.dice_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.dice_zone {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(77 253 169);
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dice_img_class {
+  width: 18px;
+  cursor: pointer;
+}
+
+/* CALIMERO DIV */
+.calimero_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  .main_advice_card {
+    width: 450px;
+  }
+
+  .advice_text {
+    font-size: 12px;
+  }
+}
